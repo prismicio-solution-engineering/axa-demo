@@ -29,7 +29,7 @@ const AxaStory = ({ slice }: AxaStoryProps): JSX.Element => {
         </div>
         <PrismicNextLink
           field={slice.primary.cta_link}
-          className="cursor-pointer py-3 px-4 bg-[transparent] box-border overflow-hidden flex flex-row items-start justify-start border-[1px] border-solid border-white hover:bg-white hover:bg-opacity-25 hover:box-border hover:border-[1px] hover:border-solid hover:border-[#e6e6e6]"
+          className="cursor-pointer py-3 px-4 bg-[transparent] box-border overflow-hidden flex flex-row items-start justify-start border-[1px] border-solid border-white hover:box-border hover:border-[1px] hover:border-solid hover:border-[#e6e6e6]"
         >
           <div className="text-sm leading-[16px] uppercase font-semibold text-white text-center">
             {slice.primary.cta_label}

@@ -34,7 +34,6 @@
 				}
 			},
 			"image": {
-				"__TYPE__": "ImageContent",
 				"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85&rect=0%2C304%2C6000%2C1750&w=1920&h=560",
 				"alt": "woman in white scrub suit holding gray laptop computer",
 				"origin": {
@@ -53,6 +52,8 @@
 						"y": 304
 					}
 				},
+				"credits": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {
 					"mobile": {
 						"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85&rect=285%2C0%2C5431%2C3910&w=375&h=270",
@@ -72,7 +73,8 @@
 								"x": 285,
 								"y": 0
 							}
-						}
+						},
+						"credits": null
 					},
 					"tablet": {
 						"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85&rect=0%2C214%2C6000%2C3483&w=758&h=440",
@@ -92,7 +94,8 @@
 								"x": 0,
 								"y": 214
 							}
-						}
+						},
+						"credits": null
 					}
 				}
 			}
