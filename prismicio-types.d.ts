@@ -3010,6 +3010,126 @@ export type JobListSlice = prismic.SharedSlice<
 >;
 
 /**
+ * Primary content in *LeadersVoice → Primary*
+ */
+export interface LeadersVoiceSliceDefaultPrimary {
+  /**
+   * Title field in *LeadersVoice → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.primary.title
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  title: prismic.RichTextField;
+
+  /**
+   * Description field in *LeadersVoice → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.primary.description
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Cta Label field in *LeadersVoice → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.primary.cta_label
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  cta_label: prismic.KeyTextField;
+
+  /**
+   * Cta Link field in *LeadersVoice → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
+}
+
+/**
+ * Primary content in *LeadersVoice → Items*
+ */
+export interface LeadersVoiceSliceDefaultItem {
+  /**
+   * Name field in *LeadersVoice → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.items[].name
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  name: prismic.KeyTextField;
+
+  /**
+   * Role field in *LeadersVoice → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.items[].role
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  role: prismic.KeyTextField;
+
+  /**
+   * Image field in *LeadersVoice → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.items[].image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<"mobile">;
+
+  /**
+   * Quote field in *LeadersVoice → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: leaders_voice.items[].quote
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  quote: prismic.KeyTextField;
+}
+
+/**
+ * Default variation for LeadersVoice Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type LeadersVoiceSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<LeadersVoiceSliceDefaultPrimary>,
+  Simplify<LeadersVoiceSliceDefaultItem>
+>;
+
+/**
+ * Slice variation for *LeadersVoice*
+ */
+type LeadersVoiceSliceVariation = LeadersVoiceSliceDefault;
+
+/**
+ * LeadersVoice Shared Slice
+ *
+ * - **API ID**: `leaders_voice`
+ * - **Description**: LeadersVoice
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type LeadersVoiceSlice = prismic.SharedSlice<
+  "leaders_voice",
+  LeadersVoiceSliceVariation
+>;
+
+/**
  * Primary content in *LogoCloud → Primary*
  */
 export interface LogoCloudSliceDefaultPrimary {
@@ -4296,6 +4416,11 @@ declare module "@prismicio/client" {
       JobListSliceDefaultPrimary,
       JobListSliceVariation,
       JobListSliceDefault,
+      LeadersVoiceSlice,
+      LeadersVoiceSliceDefaultPrimary,
+      LeadersVoiceSliceDefaultItem,
+      LeadersVoiceSliceVariation,
+      LeadersVoiceSliceDefault,
       LogoCloudSlice,
       LogoCloudSliceDefaultPrimary,
       LogoCloudSliceDefaultItem,

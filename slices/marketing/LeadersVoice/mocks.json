@@ -1,0 +1,433 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Paroles de leaders",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Entretien avec nos dirigeants sur l'actualité d'Axa",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"cta_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Voir tous les articles"
+			},
+			"cta_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Helen Browne"
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Group General Counsel"
+						}
+					],
+					[
+						"quote",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra\""
+						}
+					],
+					[
+						"image",
+						{
+							"url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85&rect=0%2C585%2C4016%2C4847&w=290&h=350",
+							"alt": "shallow focus photo of woman in gray jacket",
+							"origin": {
+								"id": "0Zx1bDv5BNY",
+								"url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85",
+								"width": 4016,
+								"height": 6016
+							},
+							"width": 290,
+							"height": 350,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 585
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {
+								"mobile": {
+									"url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85&rect=0%2C547%2C4016%2C4923&w=310&h=380",
+									"alt": "shallow focus photo of woman in gray jacket",
+									"origin": {
+										"id": "0Zx1bDv5BNY",
+										"url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85",
+										"width": 4016,
+										"height": 6016
+									},
+									"width": 310,
+									"height": 380,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 547
+										}
+									},
+									"credits": null
+								}
+							}
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Françoise Gilles"
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Chief Risk Officer and member of AXA Management Committee"
+						}
+					],
+					[
+						"image",
+						{
+							"url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85&rect=0%2C563%2C3840%2C4634&w=290&h=350",
+							"alt": "woman on focus photography",
+							"origin": {
+								"id": "SJvDxw0azqw",
+								"url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85",
+								"width": 3840,
+								"height": 5760
+							},
+							"width": 290,
+							"height": 350,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 563
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {
+								"mobile": {
+									"url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85&rect=0%2C526%2C3840%2C4707&w=310&h=380",
+									"alt": "woman on focus photography",
+									"origin": {
+										"id": "SJvDxw0azqw",
+										"url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHdvcmt8ZW58MHx8fHwxNzEyMTczNTU1fDA&ixlib=rb-4.0.3&q=85",
+										"width": 3840,
+										"height": 5760
+									},
+									"width": 310,
+									"height": 380,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 526
+										}
+									},
+									"credits": null
+								}
+							}
+						}
+					],
+					[
+						"quote",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra\""
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Karima Silvent"
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Group Chief Human Resources Officer"
+						}
+					],
+					[
+						"image",
+						{
+							"url": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8d29yayUyMHdvbWFufGVufDB8fHx8MTcxMjE3MzU3Nnww&ixlib=rb-4.0.3&q=85&rect=0%2C585%2C4016%2C4847&w=290&h=350",
+							"alt": "woman sitting next to window",
+							"origin": {
+								"id": "Zpzf7TLj_gA",
+								"url": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8d29yayUyMHdvbWFufGVufDB8fHx8MTcxMjE3MzU3Nnww&ixlib=rb-4.0.3&q=85",
+								"width": 4016,
+								"height": 6016
+							},
+							"width": 290,
+							"height": 350,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 585
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {
+								"mobile": {
+									"url": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8d29yayUyMHdvbWFufGVufDB8fHx8MTcxMjE3MzU3Nnww&ixlib=rb-4.0.3&q=85&rect=0%2C547%2C4016%2C4923&w=310&h=380",
+									"alt": "woman sitting next to window",
+									"origin": {
+										"id": "Zpzf7TLj_gA",
+										"url": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8d29yayUyMHdvbWFufGVufDB8fHx8MTcxMjE3MzU3Nnww&ixlib=rb-4.0.3&q=85",
+										"width": 4016,
+										"height": 6016
+									},
+									"width": 310,
+									"height": 380,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 547
+										}
+									},
+									"credits": null
+								}
+							}
+						}
+					],
+					[
+						"quote",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra\""
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Ulrike Decoene"
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "AXA Head of Communications, Brand & Sustainability"
+						}
+					],
+					[
+						"image",
+						{
+							"url": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b3JraW5nJTIwd29tYW58ZW58MHx8fHwxNzEyMTczNjA4fDA&ixlib=rb-4.0.3&q=85&rect=2329%2C0%2C3712%2C4480&w=290&h=350",
+							"alt": "woman in orange long sleeve shirt sitting beside table with macbook pro",
+							"origin": {
+								"id": "QgYvORVDdd8",
+								"url": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b3JraW5nJTIwd29tYW58ZW58MHx8fHwxNzEyMTczNjA4fDA&ixlib=rb-4.0.3&q=85",
+								"width": 6720,
+								"height": 4480
+							},
+							"width": 290,
+							"height": 350,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 2329,
+									"y": 0
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {
+								"mobile": {
+									"url": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b3JraW5nJTIwd29tYW58ZW58MHx8fHwxNzEyMTczNjA4fDA&ixlib=rb-4.0.3&q=85&rect=2578%2C0%2C3655%2C4480&w=310&h=380",
+									"alt": "woman in orange long sleeve shirt sitting beside table with macbook pro",
+									"origin": {
+										"id": "QgYvORVDdd8",
+										"url": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b3JraW5nJTIwd29tYW58ZW58MHx8fHwxNzEyMTczNjA4fDA&ixlib=rb-4.0.3&q=85",
+										"width": 6720,
+										"height": 4480
+									},
+									"width": 310,
+									"height": 380,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 2578,
+											"y": 0
+										}
+									},
+									"credits": null
+								}
+							}
+						}
+					],
+					[
+						"quote",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra\""
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Delphine Icart"
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "CEO of Healthanea"
+						}
+					],
+					[
+						"quote",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra\""
+						}
+					],
+					[
+						"image",
+						{
+							"url": "https://images.unsplash.com/photo-1573166475912-1ed8b4f093d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b21hbiUyMENFT3xlbnwwfHx8fDE3MTIxNzU3MjZ8MA&ixlib=rb-4.0.3&q=85&rect=0%2C585%2C4016%2C4847&w=290&h=350",
+							"alt": "woman in blue blazer standing beside glass wall",
+							"origin": {
+								"id": "dZVU-OYzOi0",
+								"url": "https://images.unsplash.com/photo-1573166475912-1ed8b4f093d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b21hbiUyMENFT3xlbnwwfHx8fDE3MTIxNzU3MjZ8MA&ixlib=rb-4.0.3&q=85",
+								"width": 4016,
+								"height": 6016
+							},
+							"width": 290,
+							"height": 350,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 585
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {
+								"mobile": {
+									"url": "https://images.unsplash.com/photo-1573166475912-1ed8b4f093d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b21hbiUyMENFT3xlbnwwfHx8fDE3MTIxNzU3MjZ8MA&ixlib=rb-4.0.3&q=85&rect=0%2C547%2C4016%2C4923&w=310&h=380",
+									"alt": "woman in blue blazer standing beside glass wall",
+									"origin": {
+										"id": "dZVU-OYzOi0",
+										"url": "https://images.unsplash.com/photo-1573166475912-1ed8b4f093d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHx3b21hbiUyMENFT3xlbnwwfHx8fDE3MTIxNzU3MjZ8MA&ixlib=rb-4.0.3&q=85",
+										"width": 4016,
+										"height": 6016
+									},
+									"width": 310,
+									"height": 380,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 547
+										}
+									},
+									"credits": null
+								}
+							}
+						}
+					]
+				]
+			}
+		]
+	}
+]
