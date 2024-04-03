@@ -1,0 +1,102 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebrow": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "AXA STORIES"
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Maria, médecin à Bogota en Colombie, est guidée par le courage et la compassion envers ceux qui en ont le plus besoin.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"cta_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "En savoir plus"
+			},
+			"cta_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85&rect=0%2C304%2C6000%2C1750&w=1920&h=560",
+				"alt": "woman in white scrub suit holding gray laptop computer",
+				"origin": {
+					"id": "tl447mekwuQ",
+					"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85",
+					"width": 6000,
+					"height": 3910
+				},
+				"width": 1920,
+				"height": 560,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 304
+					}
+				},
+				"thumbnails": {
+					"mobile": {
+						"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85&rect=285%2C0%2C5431%2C3910&w=375&h=270",
+						"alt": "woman in white scrub suit holding gray laptop computer",
+						"origin": {
+							"id": "tl447mekwuQ",
+							"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85",
+							"width": 6000,
+							"height": 3910
+						},
+						"width": 375,
+						"height": 270,
+						"edit": {
+							"background": "transparent",
+							"zoom": 1,
+							"crop": {
+								"x": 285,
+								"y": 0
+							}
+						}
+					},
+					"tablet": {
+						"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85&rect=0%2C214%2C6000%2C3483&w=758&h=440",
+						"alt": "woman in white scrub suit holding gray laptop computer",
+						"origin": {
+							"id": "tl447mekwuQ",
+							"url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZG9jdG9yfGVufDB8fHx8MTcxMjE3MTU3OXww&ixlib=rb-4.0.3&q=85",
+							"width": 6000,
+							"height": 3910
+						},
+						"width": 758,
+						"height": 440,
+						"edit": {
+							"background": "transparent",
+							"zoom": 1,
+							"crop": {
+								"x": 0,
+								"y": 214
+							}
+						}
+					}
+				}
+			}
+		},
+		"items": []
+	}
+]

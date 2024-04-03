@@ -1,0 +1,72 @@
+{
+  "id": "axa_story",
+  "type": "SharedSlice",
+  "name": "AxaStory",
+  "description": "AxaStory",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "cta_label": {
+          "type": "Text",
+          "config": {
+            "label": "Cta Label",
+            "placeholder": ""
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "Cta Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1920,
+              "height": 560
+            },
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 375,
+                "height": 270
+              },
+              {
+                "name": "tablet",
+                "width": 758,
+                "height": 440
+              }
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

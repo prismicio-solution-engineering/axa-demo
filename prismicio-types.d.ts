@@ -1043,6 +1043,91 @@ export type ArticleListSlice = prismic.SharedSlice<
 >;
 
 /**
+ * Primary content in *AxaStory → Primary*
+ */
+export interface AxaStorySliceDefaultPrimary {
+  /**
+   * Eyebrow field in *AxaStory → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_story.primary.eyebrow
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  eyebrow: prismic.KeyTextField;
+
+  /**
+   * Title field in *AxaStory → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_story.primary.title
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  title: prismic.RichTextField;
+
+  /**
+   * Cta Label field in *AxaStory → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_story.primary.cta_label
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  cta_label: prismic.KeyTextField;
+
+  /**
+   * Cta Link field in *AxaStory → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_story.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
+
+  /**
+   * Image field in *AxaStory → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_story.primary.image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<"mobile" | "tablet">;
+}
+
+/**
+ * Default variation for AxaStory Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type AxaStorySliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<AxaStorySliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *AxaStory*
+ */
+type AxaStorySliceVariation = AxaStorySliceDefault;
+
+/**
+ * AxaStory Shared Slice
+ *
+ * - **API ID**: `axa_story`
+ * - **Description**: AxaStory
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type AxaStorySlice = prismic.SharedSlice<
+  "axa_story",
+  AxaStorySliceVariation
+>;
+
+/**
  * Primary content in *CallToAction → Primary*
  */
 export interface CallToActionSliceDefaultPrimary {
@@ -4134,6 +4219,10 @@ declare module "@prismicio/client" {
       ArticleListSliceHorizontalListItem,
       ArticleListSliceVariation,
       ArticleListSliceHorizontalList,
+      AxaStorySlice,
+      AxaStorySliceDefaultPrimary,
+      AxaStorySliceVariation,
+      AxaStorySliceDefault,
       CallToActionSlice,
       CallToActionSliceDefaultPrimary,
       CallToActionSliceWhiteBackgroundPrimary,

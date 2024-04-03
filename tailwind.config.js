@@ -71,6 +71,20 @@ module.exports = {
       maxWidth: {
         "2xl": "40rem",
       },
+      screens: {
+        mq1900: {
+          raw: "screen and (max-width: 1900px)",
+        },
+        mq1425: {
+          raw: "screen and (max-width: 1425px)",
+        },
+        mq950: {
+          raw: "screen and (max-width: 950px)",
+        },
+        mq450: {
+          raw: "screen and (max-width: 450px)",
+        },
+      },
     },
   },
   plugins: [
