@@ -1,6 +1,9 @@
 {
-    "libraries": ["./slices/marketing","./slices/blog"],
-    "adapter": "@slicemachine/adapter-next",
-    "repositoryName": "slicify-sandbox-2002",
-    "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+  "libraries": ["./slices/marketing", "./slices/blog"],
+  "adapter": "@slicemachine/adapter-next",
+  "repositoryName": "slicify-sandbox-2002",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator",
+  "labs": {
+    "legacySliceUpgrader": true
   }
+}

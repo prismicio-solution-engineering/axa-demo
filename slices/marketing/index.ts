@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 
 export const components = {
   article_list: dynamic(() => import("./ArticleList")),
+  axa_cta: dynamic(() => import("./AxaCta")),
   axa_story: dynamic(() => import("./AxaStory")),
   call_to_action: dynamic(() => import("./CallToAction")),
   faq: dynamic(() => import("./Faq")),
@@ -16,4 +17,5 @@ export const components = {
   logo_cloud: dynamic(() => import("./LogoCloud")),
   pricing: dynamic(() => import("./Pricing")),
   testimonials: dynamic(() => import("./Testimonials")),
+  team_section: dynamic(() => import("./TeamSection")),
 };

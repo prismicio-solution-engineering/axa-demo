@@ -685,6 +685,7 @@ export type HeaderDocument<Lang extends string = string> =
   >;
 
 type HomePageDocumentDataSlicesSlice =
+  | AxaCtaSlice
   | AxaStorySlice
   | FeaturesSlice
   | PricingSlice
@@ -1042,6 +1043,88 @@ export type ArticleListSlice = prismic.SharedSlice<
   "article_list",
   ArticleListSliceVariation
 >;
+
+/**
+ * Primary content in *AxaCta → Primary*
+ */
+export interface AxaCtaSliceDefaultPrimary {
+  /**
+   * Titre field in *AxaCta → Primary*
+   *
+   * - **Field Type**: Title
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_cta.primary.titre
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  titre: prismic.TitleField;
+
+  /**
+   * Description field in *AxaCta → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_cta.primary.description
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Cta Label field in *AxaCta → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_cta.primary.cta_label
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  cta_label: prismic.KeyTextField;
+
+  /**
+   * Cta Link field in *AxaCta → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_cta.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
+
+  /**
+   * Image field in *AxaCta → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: axa_cta.primary.image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+}
+
+/**
+ * Default variation for AxaCta Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type AxaCtaSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<AxaCtaSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *AxaCta*
+ */
+type AxaCtaSliceVariation = AxaCtaSliceDefault;
+
+/**
+ * AxaCta Shared Slice
+ *
+ * - **API ID**: `axa_cta`
+ * - **Description**: AxaCta
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type AxaCtaSlice = prismic.SharedSlice<"axa_cta", AxaCtaSliceVariation>;
 
 /**
  * Primary content in *AxaStory → Primary*
@@ -4340,6 +4423,10 @@ declare module "@prismicio/client" {
       ArticleListSliceHorizontalListItem,
       ArticleListSliceVariation,
       ArticleListSliceHorizontalList,
+      AxaCtaSlice,
+      AxaCtaSliceDefaultPrimary,
+      AxaCtaSliceVariation,
+      AxaCtaSliceDefault,
       AxaStorySlice,
       AxaStorySliceDefaultPrimary,
       AxaStorySliceVariation,
