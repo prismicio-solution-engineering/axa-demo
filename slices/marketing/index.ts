@@ -17,5 +17,4 @@ export const components = {
   logo_cloud: dynamic(() => import("./LogoCloud")),
   pricing: dynamic(() => import("./Pricing")),
   testimonials: dynamic(() => import("./Testimonials")),
-  team_section: dynamic(() => import("./TeamSection")),
 };
