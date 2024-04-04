@@ -685,6 +685,7 @@ export type HeaderDocument<Lang extends string = string> =
   >;
 
 type HomePageDocumentDataSlicesSlice =
+  | AxaStorySlice
   | FeaturesSlice
   | PricingSlice
   | FormSlice

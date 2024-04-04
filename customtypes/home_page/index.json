@@ -11,6 +11,9 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "axa_story": {
+              "type": "SharedSlice"
+            },
             "features": {
               "type": "SharedSlice"
             },
